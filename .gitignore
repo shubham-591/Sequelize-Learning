@@ -1,0 +1,8 @@
+# Sequelize generated files
+config/config.js
+
+# Node.js dependencies
+node_modules/
+
+# Learning or documentation files (optional)
+learning.txt
