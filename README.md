@@ -8,6 +8,7 @@ This is a step-by-step guide to learning and using Sequelize ORM with Node.js.
 First, install Sequelize and the database driver (e.g., PostgreSQL):
 
 `npm install sequelize`
+
 `npm install pg pg-hstore`  # For PostgreSQL, use the relevant driver for your DB
 
 2. Install Sequelize CLI
@@ -62,6 +63,7 @@ In the Car model (models/car.js):
 In the Tag model (models/tag.js):
 
 `Tag.belongsTo(Car);`
+
 These associations define that a Car can have many Tags and each Tag belongs to a Car. You can define different relationships like belongsToMany, hasOne, etc., based on your requirements.
 
 After defining associations, you may need to run migrations to update the schema.
