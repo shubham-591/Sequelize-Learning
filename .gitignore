@@ -1,5 +1,5 @@
 # Sequelize generated files
-config/config.js
+db/config/
 
 # Node.js dependencies
 node_modules/
